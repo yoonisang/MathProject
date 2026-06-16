@@ -34,7 +34,8 @@
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\WeaponDataSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T03:53:46.27Z"
+              "WhenOpened": "2026-06-16T03:53:46.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
               "ToolTip": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T03:32:24.49Z"
+              "WhenOpened": "2026-06-16T03:32:24.49Z",
+              "EditorCaption": ""
             }
           ]
         }
