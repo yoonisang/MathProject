@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _weaponName: "\uD050\uBE0C"
   weaponPrefab: {fileID: 6474939522330747955, guid: b38383173a1555d469bed22e858fe9e5, type: 3}
-  upgradeData: {fileID: 11400000, guid: f087f71fb2424ab42b652e4b56f4507e, type: 2}
+  _upgradeLevel: 0
+  _sellPrice: 50
+  _upgradePrice: 100
+  _successRate: 100
+  _destroyRate: 0
+  _upgradeCorrectionValue: 100
+  _sellCorrectionValue: 50
