@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b176fac32f30d64daf47bdb618af534, type: 3}
   m_Name: Lv13
   m_EditorClassIdentifier: 
-  _weaponName: "\uB9C8\uAC80"
-  weaponPrefab: {fileID: 0}
+  _weaponName: "+13 \uB9C8\uAC80"
+  weaponPrefab: {fileID: 6474939522330747955, guid: b38383173a1555d469bed22e858fe9e5, type: 3}
   _upgradeLevel: 13
-  _sellPrice: 0
-  _upgradePrice: 0
-  _successRate: 10
+  _sellPrice: 1696861
+  _upgradePrice: 208230
+  _successRate: 25
   _destroyRate: 90
-  _upgradeCorrectionValue: 0
-  _sellCorrectionValue: 0
+  baseUpgradePrice: 100
+  baseSellPrice: 60

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b176fac32f30d64daf47bdb618af534, type: 3}
   m_Name: Lv1
   m_EditorClassIdentifier: 
-  _weaponName: "\uBABD\uB465\uC774"
-  weaponPrefab: {fileID: 0}
+  _weaponName: "+1 \uBABD\uB465\uC774"
+  weaponPrefab: {fileID: 6474939522330747955, guid: b38383173a1555d469bed22e858fe9e5, type: 3}
   _upgradeLevel: 1
   _sellPrice: 132
   _upgradePrice: 180
