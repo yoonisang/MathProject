@@ -31,7 +31,7 @@ public class WeaponDataSO : ScriptableObject
     [Header("판매 가격 보정값")]
     public float _sellCorrectionValue;
 
-    private void OnValidate()
+    private void OnValidate()//등비수열로 바꾸기
     {
         _upgradePrice = Mathf.RoundToInt((_upgradeLevel + 1) * _upgradeCorrectionValue);
         _sellPrice = Mathf.RoundToInt((_upgradeLevel + 1) * _sellCorrectionValue);
