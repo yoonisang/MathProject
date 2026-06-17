@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\GitHub\\MathProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|c:\\github\\mathproject\\assets\\member\\yoonisang\\999.script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\weapondataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\weapondataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\loby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\loby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\weapontableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\weapontableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\upgradedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\upgradedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|c:\\github\\mathproject\\assets\\member\\yoonisang\\999.script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\loby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\loby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|C:\\GitHub\\MathProject\\assets\\member\\yoonisang\\999.script\\upgradedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E340864F-0423-4201-EE98-801F99AAAE5F}|Assembly-CSharp.csproj|solutionrelative:assets\\member\\yoonisang\\999.script\\upgradedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CoinManager.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
               "ToolTip": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\CoinManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwEIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T03:32:24.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\WeaponManager.cs",
               "ToolTip": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\WeaponManager.cs",
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\WeaponManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-17T03:50:27.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Loby.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\Loby.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\Loby.cs",
@@ -72,11 +72,12 @@
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\Loby.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T03:30:23.816Z"
+              "WhenOpened": "2026-06-17T03:30:23.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WeaponTableSO.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\WeaponTableSO.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\WeaponTableSO.cs",
@@ -84,23 +85,25 @@
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\WeaponTableSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:01:57.214Z"
+              "WhenOpened": "2026-06-16T04:01:57.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WeaponDataSO.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\WeaponDataSO.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\WeaponDataSO.cs",
               "ToolTip": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\WeaponDataSO.cs",
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\WeaponDataSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T03:53:46.27Z"
+              "WhenOpened": "2026-06-16T03:53:46.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UpgradeDataSO.cs",
               "DocumentMoniker": "C:\\GitHub\\MathProject\\Assets\\Member\\Yoonisang\\999.Script\\UpgradeDataSO.cs",
               "RelativeDocumentMoniker": "Assets\\Member\\Yoonisang\\999.Script\\UpgradeDataSO.cs",
@@ -108,7 +111,8 @@
               "RelativeToolTip": "Assets\\Member\\Yoonisang\\999.Script\\UpgradeDataSO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T03:48:21.718Z"
+              "WhenOpened": "2026-06-16T03:48:21.718Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -486,6 +486,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponTable: {fileID: 11400000, guid: 8611569887813f84ea835e036c64accb, type: 2}
   currentWeapon: {fileID: 11400000, guid: 1d408eba468cc064a86e1aeb2e5531bd, type: 2}
+  weaponParent: {fileID: 794321898}
+  _nameText: {fileID: 253643155}
+  _upgradePriceText: {fileID: 1609089677}
+  _successRateText: {fileID: 1561355810}
+  _sellPriceText: {fileID: 1599417514}
 --- !u!4 &706671521
 Transform:
   m_ObjectHideFlags: 0
@@ -493,6 +498,37 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706671519}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &794321897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794321898}
+  m_Layer: 0
+  m_Name: Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794321898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794321897}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1840,3 +1876,4 @@ SceneRoots:
   - {fileID: 2056004954}
   - {fileID: 913511356}
   - {fileID: 706671521}
+  - {fileID: 794321898}

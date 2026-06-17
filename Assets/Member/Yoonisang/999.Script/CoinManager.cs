@@ -63,6 +63,6 @@ public class CoinManager : MonoBehaviour
     // UI 갱신
     private void UpdateCoinUI()
     {
-        coinText.text = "보유 금액: " + _currentCoin.ToString("N0");
+        coinText.text = "보유 금액: " + _currentCoin.ToString() + " G";
     }
 }
