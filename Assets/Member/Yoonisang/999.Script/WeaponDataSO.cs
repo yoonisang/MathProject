@@ -13,9 +13,9 @@ public class WeaponDataSO : ScriptableObject
     public int _upgradeLevel;
 
     [Header("판매/강화 가격")]
-    public int _sellPrice;//판매 가격
+    public int _sellPrice;//판매 가격, 2.2배씩 증가
 
-    public int _upgradePrice;//강화 가격
+    public int _upgradePrice;//강화 가격, 1.8배씩 증가
 
     [Header("강화 성공 확률")]
     [Range(0f, 100f)]
@@ -25,15 +25,13 @@ public class WeaponDataSO : ScriptableObject
     [Range(0f, 100f)]
     public float _destroyRate;
 
-    [Header("강화 가격 보정값")]
-    public float _upgradeCorrectionValue;
+    [SerializeField] private int baseUpgradePrice = 100;
+    [SerializeField] private int baseSellPrice = 60;
 
-    [Header("판매 가격 보정값")]
-    public float _sellCorrectionValue;
-
-    private void OnValidate()//등비수열로 바꾸기
+    private void OnValidate()
     {
-        _upgradePrice = Mathf.RoundToInt((_upgradeLevel + 1) * _upgradeCorrectionValue);
-        _sellPrice = Mathf.RoundToInt((_upgradeLevel + 1) * _sellCorrectionValue);
+        _upgradePrice = Mathf.RoundToInt(baseUpgradePrice * Mathf.Pow(1.8f, _upgradeLevel));
+
+        _sellPrice = Mathf.RoundToInt(baseSellPrice * Mathf.Pow(2.2f, _upgradeLevel));
     }
 }
