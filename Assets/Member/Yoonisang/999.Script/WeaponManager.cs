@@ -17,9 +17,16 @@ public class WeaponManager : MonoBehaviour
     public TextMeshProUGUI _successRateText;
     public TextMeshProUGUI _sellPriceText;
 
+    [Header("오디오")]
+    public AudioClip upgradeSuccessClip;
+    public AudioClip upgradeFailClip;
+
+    private AudioSource _audioSource;
+
     private void Start()
     {
         EquipWeapon(weaponTable.weapons[0]);
+            _audioSource = GetComponent<AudioSource>();
     }
 
     public void UpdateWeaponUI()
@@ -66,11 +73,13 @@ public class WeaponManager : MonoBehaviour
             if (Random.Range(0f, 100f) <= currentWeapon._successRate)
             {
                 EquipWeapon(weaponTable.weapons[nextLevel]);
+                _audioSource.PlayOneShot(upgradeSuccessClip);
                 Debug.Log("강화 성공");
             }
             else
             {
                 EquipWeapon(weaponTable.weapons[0]);
+                _audioSource.PlayOneShot(upgradeFailClip);
                 Debug.Log("강화 실패");
             }
         }
