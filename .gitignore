@@ -3,5 +3,7 @@
 [Ll]ogs/
 UserSettings/
 
+.vs/
+
 *.csproj
 *.sln

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b176fac32f30d64daf47bdb618af534, type: 3}
+  m_Name: Lv13
+  m_EditorClassIdentifier: 
+  _weaponName: "+13 \uB9C8\uAC80"
+  weaponPrefab: {fileID: 6474939522330747955, guid: b38383173a1555d469bed22e858fe9e5, type: 3}
+  _upgradeLevel: 13
+  _sellPrice: 1696861
+  _upgradePrice: 208230
+  _successRate: 25
+  _destroyRate: 90
+  baseUpgradePrice: 100
+  baseSellPrice: 60

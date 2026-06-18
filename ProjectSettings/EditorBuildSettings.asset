@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Member/Yoonisang/999.Scene/StartScene.unity
+    guid: 58a7f9ac7c0ea4a489c3d3196732ba42
+  - enabled: 1
+    path: Assets/Member/Yoonisang/999.Scene/MainScene.unity
+    guid: 02f8204d5774ddc428d6fb7c8f4fb270
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
