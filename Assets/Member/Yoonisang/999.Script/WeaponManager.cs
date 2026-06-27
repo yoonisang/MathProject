@@ -24,6 +24,14 @@ public class WeaponManager : MonoBehaviour
 
     private AudioSource _audioSource;
 
+    [Header("이펙트 프리팹")]
+    public GameObject successEffectPrefab; // 강화 성공 이펙트
+    public GameObject failEffectPrefab;    // 강화 실패 이펙트
+    public GameObject sellEffectPrefab;    // 무기 판매 이펙트
+
+    [Header("이펙트 생성 위치")]
+    public Transform effectParent;
+
     private void Start()
     {
         EquipWeapon(weaponTable.weapons[0]);
@@ -74,12 +82,16 @@ public class WeaponManager : MonoBehaviour
             if (Random.Range(0f, 100f) <= currentWeapon._successRate)
             {
                 EquipWeapon(weaponTable.weapons[nextLevel]);
+
+                SpawnEffect(successEffectPrefab);
                 _audioSource.PlayOneShot(upgradeSuccessClip);
                 Debug.Log("강화 성공");
             }
             else
             {
                 EquipWeapon(weaponTable.weapons[0]);
+
+                SpawnEffect(failEffectPrefab);
                 _audioSource.PlayOneShot(upgradeFailClip);
                 Debug.Log("강화 실패");
             }
@@ -96,8 +108,29 @@ public class WeaponManager : MonoBehaviour
 
         EquipWeapon(weaponTable.weapons[0]);
 
+        SpawnEffect(sellEffectPrefab);
         _audioSource.PlayOneShot(sellClip, 0.5f);
 
         Debug.Log("판매");
+    }
+
+    private void SpawnEffect(GameObject effectPrefab)
+    {
+        if (effectPrefab == null) return;
+
+        Transform spawnTarget = effectParent != null ? effectParent : weaponParent;
+
+        GameObject effectInstance = Instantiate(effectPrefab, spawnTarget.position, effectPrefab.transform.rotation);
+
+        ParticleSystem ps = effectInstance.GetComponent<ParticleSystem>();
+        if (ps != null)
+        {
+            float duration = ps.main.duration + ps.main.startLifetime.constantMax;
+            Destroy(effectInstance, duration);
+        }
+        else
+        {
+            Destroy(effectInstance, 2.0f);
+        }
     }
 }

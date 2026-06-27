@@ -159,6 +159,10 @@ MonoBehaviour:
   upgradeSuccessClip: {fileID: 8300000, guid: 3f61901fd7eecb54d9ec7433b48ec610, type: 3}
   upgradeFailClip: {fileID: 8300000, guid: c1a486c9d2f115847b60a56842c9bbbd, type: 3}
   sellClip: {fileID: 8300000, guid: 6177017739d3cee4fb99c797d5d0406a, type: 3}
+  successEffectPrefab: {fileID: 145256, guid: 7b117ab47ae99e74fbb811d488c1eb17, type: 3}
+  failEffectPrefab: {fileID: 1939352568327336, guid: ad82adc91f9827d48890e80c546cdce0, type: 3}
+  sellEffectPrefab: {fileID: 143964, guid: 09d9de58ef3bf5444ac94afa0e6013cb, type: 3}
+  effectParent: {fileID: 0}
 --- !u!4 &134135675
 Transform:
   m_ObjectHideFlags: 0
