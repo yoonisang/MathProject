@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5b4a1dd49f81f9f42812095a73061007, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -158,6 +158,7 @@ MonoBehaviour:
   _sellPriceText: {fileID: 832301455}
   upgradeSuccessClip: {fileID: 8300000, guid: 3f61901fd7eecb54d9ec7433b48ec610, type: 3}
   upgradeFailClip: {fileID: 8300000, guid: c1a486c9d2f115847b60a56842c9bbbd, type: 3}
+  sellClip: {fileID: 8300000, guid: 6177017739d3cee4fb99c797d5d0406a, type: 3}
 --- !u!4 &134135675
 Transform:
   m_ObjectHideFlags: 0

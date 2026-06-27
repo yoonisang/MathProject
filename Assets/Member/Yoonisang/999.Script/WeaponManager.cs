@@ -20,6 +20,7 @@ public class WeaponManager : MonoBehaviour
     [Header("오디오")]
     public AudioClip upgradeSuccessClip;
     public AudioClip upgradeFailClip;
+    public AudioClip sellClip;
 
     private AudioSource _audioSource;
 
@@ -94,6 +95,8 @@ public class WeaponManager : MonoBehaviour
         CoinManager.Instance.PlusCoin(currentWeapon._sellPrice);
 
         EquipWeapon(weaponTable.weapons[0]);
+
+        _audioSource.PlayOneShot(sellClip, 0.5f);
 
         Debug.Log("판매");
     }
