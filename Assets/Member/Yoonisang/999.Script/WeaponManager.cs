@@ -28,14 +28,35 @@ public class WeaponManager : MonoBehaviour
     public GameObject successEffectPrefab; // 강화 성공 이펙트
     public GameObject failEffectPrefab;    // 강화 실패 이펙트
     public GameObject sellEffectPrefab;    // 무기 판매 이펙트
+    public GameObject protectEffectPrefab;    // 파괴 방지 이펙트
 
     [Header("이펙트 생성 위치")]
     public Transform effectParent;
 
+    [Header("터짐 방지권")]
+    public int protectTicket;
+    [SerializeField] private int protectTicketPrice = 1000;
+
+    public TextMeshProUGUI protectTicketText;
+
     private void Start()
     {
         EquipWeapon(weaponTable.weapons[0]);
-            _audioSource = GetComponent<AudioSource>();
+        _audioSource = GetComponent<AudioSource>();
+    }
+
+    public void BuyProtectTicket()
+    {
+        if (CoinManager.Instance.MinusCoin(protectTicketPrice))
+        {
+            protectTicket++;
+            Debug.Log($"방지권 구매");
+            UpdateWeaponUI();
+        }
+        else
+        {
+            Debug.Log("그지");
+        }
     }
 
     public void UpdateWeaponUI()
@@ -46,6 +67,7 @@ public class WeaponManager : MonoBehaviour
         _upgradePriceText.text = $"강화 비용: {currentWeapon._upgradePrice.ToString()} G";
         _successRateText.text = $"성공 확률: {currentWeapon._successRate}%";
         _sellPriceText.text = $"판매 가격: {currentWeapon._sellPrice.ToString()} G";
+        protectTicketText.text = $"방지권: {protectTicket}장";
     }
 
     public void EquipWeapon(WeaponDataSO newWeaponData)
@@ -89,6 +111,21 @@ public class WeaponManager : MonoBehaviour
             }
             else
             {
+                int needTicket = currentWeapon._upgradeLevel;
+
+                if (needTicket > 0 && protectTicket >= needTicket)
+                {
+                    protectTicket -= needTicket;
+
+                    SpawnEffect(protectEffectPrefab);
+                    _audioSource.PlayOneShot(upgradeFailClip);
+                    UpdateWeaponUI();
+
+                    Debug.Log($"터짐 방지권 {needTicket}장 소모");
+
+                    return;
+                }
+
                 EquipWeapon(weaponTable.weapons[0]);
 
                 SpawnEffect(failEffectPrefab);
@@ -126,6 +163,7 @@ public class WeaponManager : MonoBehaviour
         if (ps != null)
         {
             float duration = ps.main.duration + ps.main.startLifetime.constantMax;
+
             Destroy(effectInstance, duration);
         }
         else
