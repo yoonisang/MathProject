@@ -376,7 +376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC80 \uAC15\uD654\uD558\uAE30\n"
+  m_text: "\uBB34\uAE30 \uAC15\uD654\uD558\uAE30\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5677caab0aa56574ba596936317f96b1, type: 2}
   m_sharedMaterial: {fileID: 2614557822970553513, guid: 5677caab0aa56574ba596936317f96b1, type: 2}
