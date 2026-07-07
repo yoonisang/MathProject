@@ -20,6 +20,7 @@ public class WeaponManager : MonoBehaviour
     [Header("오디오")]
     public AudioClip upgradeSuccessClip;
     public AudioClip upgradeFailClip;
+    public AudioClip protectClip;
     public AudioClip sellClip;
 
     private AudioSource _audioSource;
@@ -118,7 +119,7 @@ public class WeaponManager : MonoBehaviour
                     protectTicket -= needTicket;
 
                     SpawnEffect(protectEffectPrefab);
-                    _audioSource.PlayOneShot(upgradeFailClip);
+                    _audioSource.PlayOneShot(protectClip);
                     UpdateWeaponUI();
 
                     Debug.Log($"터짐 방지권 {needTicket}장 소모");

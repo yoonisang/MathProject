@@ -158,6 +158,7 @@ MonoBehaviour:
   _sellPriceText: {fileID: 832301455}
   upgradeSuccessClip: {fileID: 8300000, guid: 3f61901fd7eecb54d9ec7433b48ec610, type: 3}
   upgradeFailClip: {fileID: 8300000, guid: c1a486c9d2f115847b60a56842c9bbbd, type: 3}
+  protectClip: {fileID: 8300000, guid: b711644d658115d4382e74f3190901cb, type: 3}
   sellClip: {fileID: 8300000, guid: 6177017739d3cee4fb99c797d5d0406a, type: 3}
   successEffectPrefab: {fileID: 145256, guid: 7b117ab47ae99e74fbb811d488c1eb17, type: 3}
   failEffectPrefab: {fileID: 1939352568327336, guid: ad82adc91f9827d48890e80c546cdce0, type: 3}
@@ -165,7 +166,7 @@ MonoBehaviour:
   protectEffectPrefab: {fileID: 7888954802308269109, guid: e3171b41af093724b91829277929b169, type: 3}
   effectParent: {fileID: 0}
   protectTicket: 0
-  protectTicketPrice: 5000
+  protectTicketPrice: 2000
   protectTicketText: {fileID: 2111797264}
 --- !u!4 &134135675
 Transform:
@@ -1700,7 +1701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBC29\uC9C0\uAD8C \uAD6C\uC785(5000\uC6D0)"
+  m_text: "\uBC29\uC9C0\uAD8C \uAD6C\uC785(2000\uC6D0)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5677caab0aa56574ba596936317f96b1, type: 2}
   m_sharedMaterial: {fileID: 2614557822970553513, guid: 5677caab0aa56574ba596936317f96b1, type: 2}
